@@ -256,9 +256,7 @@
 
 (require 'pp)
 (require 'ring)
-(eval-and-compile
-  (require 'cl-lib nil t)
-  (require 'cl-lib "lib/cl-lib"))
+(require 'cl-lib)
 
 
 ;;; Constants and dynamically bound variables

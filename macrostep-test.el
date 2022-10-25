@@ -22,9 +22,7 @@
 
 ;;; Code:
 
-(eval-and-compile
-  (require 'ert nil t)
-  (require 'ert "lib/ert"))
+(require 'ert)
 (require 'rx)
 (require 'macrostep)
 (require 'macrostep-c)
