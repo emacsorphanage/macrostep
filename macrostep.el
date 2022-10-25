@@ -124,7 +124,7 @@
 ;;   |   `(cl-macrolet ((local-macro (&rest args)
 ;;   |                    `(expansion of ,args)))
 ;;   |      ,@body))
-;;   | 
+;;   |
 ;;   | (with-local-macro
 ;;   |     (local-macro (do something (else)))
 ;;   `----
@@ -201,7 +201,7 @@
 ;;   read from the buffer won't have the uninterned symbols of the real
 ;;   macro expansion.  This will probably work OK with CL-style gensyms,
 ;;   but may cause problems with `make-symbol' symbols if they have the
-;;   same print name as another symbol in the expansion. It's possible that
+;;   same print name as another symbol in the expansion.  It's possible that
 ;;   using `print-circle' and `print-gensym' could get around this.
 
 ;;   Please send other bug reports and feature requests to the author.
@@ -249,7 +249,7 @@
 ;;   - v0.5, 2013-04-16: highlight region, maintain cleaner buffer state
 ;;   - v0.4, 2013-04-07: only enter macrostep-mode on successful
 ;;     macro-expansion
-;;   - v0.3, 2012-10-30: print dotted lists correctly. autoload
+;;   - v0.3, 2012-10-30: print dotted lists correctly.  autoload
 ;;     definitions.
 
 ;;; Code:
@@ -275,11 +275,11 @@
 (make-variable-buffer-local 'macrostep-gensyms-this-level)
 
 (defvar macrostep-saved-undo-list nil
-  "Saved value of buffer-undo-list upon entering macrostep mode.")
+  "Saved value of `buffer-undo-list' upon entering macrostep mode.")
 (make-variable-buffer-local 'macrostep-saved-undo-list)
 
 (defvar macrostep-saved-read-only nil
-  "Saved value of buffer-read-only upon entering macrostep mode.")
+  "Saved value of `buffer-read-only' upon entering macrostep mode.")
 (make-variable-buffer-local 'macrostep-saved-read-only)
 
 (defvar macrostep-expansion-buffer nil
@@ -756,7 +756,7 @@ Returns a cons of buffer positions, (START . END)."
           (error
            (if (consp sexp)
                (error "(%s ...) is not a macro form" (car sexp))
-             (error "Text at point is not a macro form."))))))
+             (error "Text at point is not a macro form"))))))
     (cons (point) (scan-sexps (point) 1))))
 
 (defun macrostep-sexp-at-point (&rest ignore)
@@ -932,7 +932,7 @@ form, raise an error."
 (defun macrostep-collect-macro-forms (form &optional environment)
   "Identify sub-forms of FORM which undergo macro-expansion.
 
-FORM is an Emacs Lisp form. ENVIRONMENT is a local environment of
+FORM is an Emacs Lisp form.  ENVIRONMENT is a local environment of
 macro definitions.
 
 The return value is a list of two elements, (MACRO-FORM-ALIST
