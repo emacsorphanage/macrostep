@@ -490,6 +490,7 @@ quit and return to normal editing.
 \\{macrostep-keymap}"
   :lighter " Macro-Stepper"
   :group 'macrostep
+  :keymap macrostep-mode-keymap
   (if macrostep-mode
       (progn
         ;; Disable recording of undo information
