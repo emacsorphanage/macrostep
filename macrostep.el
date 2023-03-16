@@ -487,7 +487,8 @@ and move back and forth with \\[macrostep-next-macro] and \\[macrostep-prev-macr
 Use \\[macrostep-collapse-all] or collapse all visible expansions to
 quit and return to normal editing.
 
-\\{macrostep-keymap}"
+\\{macrostep-mode-keymap}"
+  :keymap macrostep-mode-keymap
   :lighter " Macro-Stepper"
   :group 'macrostep
   (if macrostep-mode
