@@ -489,6 +489,7 @@ quit and return to normal editing.
 
 \\{macrostep-keymap}"
   :lighter " Macro-Stepper"
+  :keymap macrostep-mode-keymap
   :group 'macrostep
   (if macrostep-mode
       (progn
