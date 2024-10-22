@@ -206,7 +206,7 @@ Please note that as this package will be part of Emacs soon,
 non-trivial code contributions require FSF copyright assignment prior
 to acceptance.
 
-The copyright assigment policy is at
+The copyright assignment policy is at
 https://www.fsf.org/licensing/contributor-faq
 
 Any legally significant contributions can only be merged after the
