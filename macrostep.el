@@ -274,7 +274,7 @@
   "Number of macro expansion levels that have introduced gensyms so far.")
 
 (defvar-local macrostep-gensyms-this-level nil
-  "Non-nil if gensyms have been encountered during current level of macro expansion.")
+  "Non-nil if gensyms were encountered during current level of macro expansion.")
 
 (defvar-local macrostep-saved-undo-list nil
   "Saved value of `buffer-undo-list' upon entering macrostep mode.")
