@@ -238,6 +238,10 @@
 
 ;;; News:
 
+;;   - v0.9.4, 2024-05-09:
+;;     - add compat dependency for defvar-keymap
+;;   - v0.9.3, 2024-04-30:
+;;     - code simplifications, checkdoc fixes.
 ;;   - v0.9.2, 2023-05-12:
 ;;     - name the keymap macrostep-mode-map, fixing a regression in v0.9.1
 ;;   - v0.9.1, 2023-03-12:
