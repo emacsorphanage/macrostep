@@ -34,11 +34,9 @@
 
    Install =macrostep= from Emacs with =M-x package-install macrostep=.
 
-   =macrostep= is available on NonGNU ELPA.
-   For further details, see
-   https://elpa.nongnu.org/ and
-   https://elpa.nongnu.org/nongnu/macrostep.html
-
+   =macrostep= is available on [[https://elpa.nongnu.org/][ NonGNU ELPA.]]
+   For further details, see [[https://elpa.nongnu.org/nongnu/macrostep.html][the macrostep page.]]
+   
 ** Key-bindings and usage
    The standard keybindings in =macrostep-mode= are the following:
  
