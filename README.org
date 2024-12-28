@@ -36,7 +36,7 @@
 
    =macrostep= is available on NonGNU ELPA.
    For further details, see
-   https://elpa.nongnu.org/
+   https://elpa.nongnu.org/ and
    https://elpa.nongnu.org/nongnu/macrostep.html
 
 ** Key-bindings and usage
