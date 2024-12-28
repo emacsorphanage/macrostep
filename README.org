@@ -30,6 +30,15 @@
    contributions for other languages are welcome.  See "Extending
    macrostep" below for details.
 
+** Installation
+
+   Install =macrostep= from Emacs with =M-x package-install macrostep=.
+
+   =macrostep= is available on NonGNU ELPA.
+   For further details, see
+   https://elpa.nongnu.org/
+   https://elpa.nongnu.org/nongnu/macrostep.html
+
 ** Key-bindings and usage
    The standard keybindings in =macrostep-mode= are the following:
  
@@ -184,6 +193,14 @@
    Lisp' articles ([[http://dorophone.blogspot.co.uk/2011/04/deep-emacs-part-1.html][part 1]], [[http://dorophone.blogspot.co.uk/2011/04/deep-emacs-lisp-part-2.html][part 2]], [[http://dorophone.blogspot.co.uk/2011/05/monadic-parser-combinators-in-elisp.html][screencast]]).
 
 ** Changelog
+   - v0.9.4, 2024-05-09:
+     - add compat dependency for defvar-keymap
+   - v0.9.3, 2024-04-30:
+     - code simplifications, checkdoc fixes.
+   - v0.9.2, 2023-05-12:
+     - name the keymap macrostep-mode-map, fixing a regression in v0.9.1
+   - v0.9.1, 2023-03-12:
+     - bug fixes, cleanup and modernization
    - v0.9, 2015-10-01:
      - separate into Elisp-specific and generic components
      - highlight and expand compiler macros
@@ -202,7 +219,7 @@
 
 * Contributions
 
-Please note that as this package will be part of Emacs soon,
+Please note that as this package is intended to be part of Emacs soon,
 non-trivial code contributions require FSF copyright assignment prior
 to acceptance.
 
