@@ -8,7 +8,7 @@
 ;; Url: https://github.com/emacsorphanage/macrostep
 ;; Keywords: lisp, languages, macro, debugging
 
-;; Package-Version: 0.9.4
+;; Package-Version: 0.9.5
 ;; Package-Requires: ((cl-lib "0.5") (compat "29"))
 
 ;; SPDX-License-Identifier: GPL-3.0-or-later
