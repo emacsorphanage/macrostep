@@ -238,6 +238,8 @@
 
 ;;; News:
 
+;;   - v0.9.5, 2024-02-01:
+;;     - documentation improvements
 ;;   - v0.9.4, 2024-05-09:
 ;;     - add compat dependency for defvar-keymap
 ;;   - v0.9.3, 2024-04-30:
