@@ -191,6 +191,8 @@
    Lisp' articles ([[http://dorophone.blogspot.co.uk/2011/04/deep-emacs-part-1.html][part 1]], [[http://dorophone.blogspot.co.uk/2011/04/deep-emacs-lisp-part-2.html][part 2]], [[http://dorophone.blogspot.co.uk/2011/05/monadic-parser-combinators-in-elisp.html][screencast]]).
 
 ** Changelog
+   - v0.9.5, 2024-02-01:
+     - documentation improvements
    - v0.9.4, 2024-05-09:
      - add compat dependency for defvar-keymap
    - v0.9.3, 2024-04-30:
